@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SyNc - Music Application</title>
+    <link rel="icon" type="image/x-icon" href="images/favi1.png">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    
+    <nav>
+        <ul>
+            <div class="nav_bar">
+            <li class="brand"><img src="images/logo.avif" alt="app_logo">SyNc</li>
+            <li>
+                <a  href="#">Home</a></li>
+               <li> <a  href="#">About</a></li>
+            
+            </div>
+        </ul>
+        
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+            <h1>Vintage Playlist..</h1>
+            <div class="songItemConatiner">
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class = "songName">Excuses</span>
+                    <span class="songlistplay"><span class="timestamp">02:56 <i id = "0" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class = "songName">Excuses</span>
+                    <span class="songlistplay"><span class="timestamp">03:34 <i id = "1" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class = "songName">Excuses</span>
+                    <span class="songlistplay"><span class="timestamp">07:07 <i id = "2" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class = "songName">Excuses</span>
+                    <span class="songlistplay"><span class="timestamp">04:00<i id = "3" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class = "songName">Excuses</span>
+                    <span class="songlistplay"><span class="timestamp">05:05 <i id = "4" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class = "songName">Excuses</span>
+                    <span class="songlistplay"><span class="timestamp">04:26 <i id = "5" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class = "songName">Excuses</span>
+                    <span class="songlistplay"><span class="timestamp">04:22 <i id = "6" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class = "songName">Excuses</span>
+                    <span class="songlistplay"><span class="timestamp">05:06 <i id = "7" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class = "songName">Excuses</span>
+                    <span class="songlistplay"><span class="timestamp">04:55 <i id = "8" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+                <div class="songItem">
+                    <img alt="1" >
+                    <span class = "songName">Excuses</span>
+                    <span class="songlistplay"><span class="timestamp">03:34 <i id = "9" class="songItemPlay fa-solid fa-circle-play"></i></span></span>
+                </div>
+            </div>
+        </div>
+        <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+    
+        <input type="range" name="range" id="songProgress" min="0" value = "0" max="100">
+        <div class="icons">
+            <i  id ="prev" class="fa-3x fa-solid fa-backward-step"></i>
+            <i class="fa-3x fa-solid fa-circle-play" id="masterPlay"></i>
+            <i id ="next" class="fa-3x  fa-solid fa-forward-step"></i>
+        </div>
+        <div class="songGif" >  <img src="images/giphy.gif"  width="100px" alt="Playing" id="gif">
+            <span id="songDisplay" >Excuses - AP Dhillon</span> </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/ce86972ff1.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
